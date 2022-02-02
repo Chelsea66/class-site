@@ -2,13 +2,13 @@
     text-decoration:none;
     font-family:monospace;
     display: inline;
-    font-size: 25px;
+    font-size: 30px;
     vertical-align:middle;
     left: 5%;
     z-index:101;
     background-color: white;
     position: relative;
-    top:10%;
+    top:3%;
     vertical-align:super;
     
 }
