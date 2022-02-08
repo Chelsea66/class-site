@@ -111,21 +111,50 @@ article {
     font-size: 78px;
     margin-top: 5%;
     margin-bottom: 10%; 
-    background-color: aliceblue;
+    /*background-color: aliceblue;*/
+    background-image:url("https://i.pinimg.com/originals/7b/38/fa/7b38faf4341a18bce5c7dcc4c4032644.gif");
     padding-top: 20%;
-    padding-bottom:20%
+    padding-bottom:20%; 
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 section{
     position: center;
     
 }
+.image_position {
+  float: left;
+  height: 250px;
+  padding: 0 60px;
+}
 .center {
-margin-top: -15%; 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;  
+    margin-top: -8%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    display: table;
+    content: "";
+    display: table;
+    clear: both; 
+    position: center; 
     
 } 
+.button{
+  width: 150px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.button-text{
+  font-size: 20px;
+  font-family: monospace;
+  text-align: center;
+}
+.question{
+    
+}
 /*
 .small-image{ 
     max-width:40%;
@@ -134,20 +163,20 @@ margin-top: -15%;
     margin-left: 40%;
 }*/ 
 
-p{
-    text-align: center; 
-    font-family: monospace;
-}
-.row {
+
+/*.row {
   display: flex;
 }
-
-.column {
+.small-image{
+    max-width:40%;
+    width:20px;
+} */
+/*.column {
   flex: 25%;
   padding: 80px;
     font-size: 20px;
-}
-aside{
+}*/
+/*aside{
     margin-left: 40%; 
     font-family: monospace;
     font-size: 30px;
@@ -161,9 +190,10 @@ aside{
     margin-top: -37.5%;
     padding: 7.55%;
     
-}
+}*/ 
+
 .questionbutton{
-    margin-left: 50%;
+    margin-left: 
 }
 
 
@@ -187,9 +217,76 @@ a:focus{
     font-family: monospace;
     background-color:darkorchid; 
     color: black;
-}*/ 
+}
 
 footer{
-    background-color:dimgrey;
-    padding: 20%
+    margin-top: 10%;
+    background-color:lightpink;
+    padding: 5%;
+}
+p{
+    text-align: center;
+}
+
+
+/*their me page*/ 
+section img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+section {
+   text-align: center; 
+}
+
+.button_2 {
+	background-color: pink;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-family: monospace;
+	font-size: 20px;
+    margin-top: 5%; 
+}
+
+#greeting {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 30%;
+}
+
+#blog {
+	margin-top: 20px;
+	margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 30%;
+    text-align: center; 
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid pink;
+	font-family: monospace;
+	font-size: 20px;
+	display: block;
+	width: 400px;
+    text-align: center; 
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+ul{
+    text-align: left; 
 }

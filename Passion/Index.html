@@ -3,7 +3,8 @@
     <head> 
         <!-- the bullet stylle with css -->
          <link rel="stylesheet" href="styles.css">
-        <script src="Script.js"></script>
+		<script src="script/script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Passion </title> 
 
     </head>
@@ -16,20 +17,49 @@
                 <ul>    
                     <li class="current-menu-item"><a href="index.html">Home</a></li>
                     <li><a href="#"> About </a></li>
-                    <li><a href="#"> Their me</a></li>
+                    <li><a href="TheirMe.html"> Their me</a></li>
                     <li><a href="about.html"> My mine </a>
-                    <li><a href="#"> My favrote </a></li>
+                    <li><a href="#"> My favorite </a></li>
                 </ul>
             </nav>
         </header>
-        <section>
+        <main>
             <article>
                 <div id="myDIV">Hello</div>
                 <button onclick="myFunction()">Click Me</button>
             </article>
-        </section>
-        <section class="center">
-            <div class="row">
+        </main >
+        <main class="center">
+            <div class ="image_position">
+              <a href="#" target="_blank">
+                <img src="image/Contradiction.png"; class="button">
+                <p class="button-text">Contradiction</p>
+              </a>
+            </div>
+
+            <div class ="image_position">
+                <a href="#" target="_blank">
+                <img src="image/Qestion.png"; class="button">
+                <p class="button-text">Qestion</p>
+                </a>
+            </div>
+
+            <div class ="image_position">
+                <a href="#" target="_blank">
+                <img src="image/Think_.png"; class="button">
+                <p class="button-text">Think</p>
+                </a>
+            </div>
+
+            <div class ="image_position">
+                <a href="#" target="_blank">
+                <img src="image/Relax.png"; class="button">
+                <p class="button-text">Relax</p>
+                </a>
+            </div>
+        </main>
+            
+            <!--<div class="row">
               <div class="column">
                 <img class="small-image" src="image/Contradiction.png" alt="Contradiction" style="width:100%">
                 <p>Contradiction</p>
@@ -46,17 +76,17 @@
                 <img class="small-image" src="image/Relax.png" style="width:100%">
                 <p>Relax</p>
               </div>
-            </div>
+            </div> -->
             
             
             <!--<img class="small-image" src="image/Contradiction.png" alt="Contradiction">
             <img class="small-image" src="image/Qestion.png" alt="Question">
             <img class="small-image" src="image/Think_.png" alt="Thinking">
             <img class="small-image" src="image/Relax.png" alt="relax">--> 
-        </section>
-        <section >
+        
+        <main class= "question">
                 <img src="image/IMG_0394.jpg" alt="me" style="width:50%">
-            <aside class="side"> 
+            <aside class="side">
                 <div id="myQuestion">What am I interested in?</div>
                 <br>
                 <li> <a href="#">Food</a> </li>
@@ -66,10 +96,11 @@
                 <li> <a href="#">Past</a></li>
                 <button class="questionbutton" onclick="Questionfunction()">Click Me</button>
             </aside>
-        
-        </section>
+        </main>
          <footer>
-             <p> Back TO Top</p>
+             <body>
+                 <p> back to top </p>
+             </body>
         </footer>
     </body>
 </html>
