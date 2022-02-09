@@ -1,0 +1,656 @@
+
+.new-style{
+	font-size: 25px;
+	color: red;
+	border: 1px solid blue;
+	text-align: right;
+	
+}
+
+.Style1{
+	font-family:'Reenie Beanie', cursive;
+	color:rebeccapurple; 
+	background-color: #FFD4F9;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.stylechange{
+    position:relative; 
+    top: 5px; 
+    left: 10%; 
+    color: transparent; 
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+}
+
+h1{
+    position:relative; 
+    font-size: 45px; 
+    font-family:sans-serif; 
+    text-align: center; 
+    z-index:1; 
+    width:100%;  
+    height: 50px; 
+    top: -20px; 
+    left:0; 
+    margin-top: 2%;  
+    padding-top: 10px; 
+    z-index: 10; 
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    
+}
+#primary_nav_wrap{
+	margin-top:10px;
+    margin-left: 0%;
+    margin-right: 0%; 
+}
+
+#primary_nav_wrap ul{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding-left: 28%;
+    padding-top: -20%; 
+        
+}
+
+#primary_nav_wrap ul a{
+	display:block;
+	color:#3D0C02;
+	text-decoration:none;
+	font-weight:700;
+	font-size:20px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:sans-serif;  
+}
+
+#primary_nav_wrap ul li{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+    
+}
+
+
+
+article {
+    position:center;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 78px;
+    margin-top: 5%;
+    margin-bottom: 10%; 
+    /*background-color: aliceblue;*/
+    background-image:url("https://i.pinimg.com/originals/7b/38/fa/7b38faf4341a18bce5c7dcc4c4032644.gif");
+    padding-top: 20%;
+    padding-bottom:20%; 
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image_position {
+  float: left;
+  height: 250px;
+  padding: 0 60px;
+}
+.center {
+    margin-top: -7%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    display: table;
+    content: "";
+    display: table;
+    clear: both; 
+    
+} 
+.button{
+  width: 150px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.button-text{
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+    padding-bottom: 10%; 
+}
+.Table1{
+    position: relative; 
+    margin-top:-5%;
+}
+.TableList{
+    margin-top: 10%; 
+    padding-top:10px; 
+    text-align: center; 
+    position: relative; 
+    margin: auto; 
+}
+.
+/*My Passion*/ 
+table2{ 
+    position: relative; 
+    margin-top: 20%; 
+}
+td {
+    padding-bottom: 20px;
+}
+.note{
+    padding-top:2px; 
+    text-align: center; 
+    position: relative; 
+    width: 270px;
+    height: 280px;
+    background-color:#BDF3F5; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: auto; 
+    border-radius: 10%; 
+}
+
+.note li{
+    font-family: cursive; 
+    padding-left: 20px; 
+    text-align: left; 
+}
+.note2{
+    padding-top:2px; 
+    text-align: center; 
+    position: relative; 
+    width: 270px;
+    height: 440px;
+    background-color:#BDF3F5; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: auto; 
+    border-radius: 10%; 
+}
+.note2 li{
+    font-family: cursive; 
+    padding-left: 20px; 
+    text-align: left; 
+}
+
+h2{
+    font-family: cursive; 
+    font-size: 20px;
+    text-align: center;z
+}
+/*
+.small-image{ 
+    max-width:40%;
+    width:150px;
+    display: inline-block;
+    margin-left: 40%;
+}*/ 
+
+
+/*.row {
+  display: flex;
+}
+.small-image{
+    max-width:40%;
+    width:20px;
+} */
+/*.column {
+  flex: 25%;
+  padding: 80px;
+    font-size: 20px;
+}*/
+/*aside{
+    margin-left: 40%; 
+    font-family: monospace;
+    font-size: 30px;
+    background-color: blanchedalmond;
+    text-indent: 50px;
+    word-spacing: 5px;
+    white-space: nowrap;
+    
+}
+.side{
+    margin-top: -37.5%;
+    padding: 7.55%;
+    
+}*/ 
+
+
+*a{  
+    text-decoration-color: black; 
+    font-family: sans-serif;  
+    background-color:white; 
+    margin-right: 45%;
+    margin-left:45%;
+    color: black;
+    
+}
+
+a:hover{
+    font-family: sans-serif; 
+    background-color:beige;
+    color:black;
+}
+
+a:focus{
+    font-family: sans-serif; 
+    background-color:#E0B0FF; 
+    color: black;
+}
+
+footer{
+    margin-top: 2%;
+    background-color:rebeccapurple; 
+    padding: 5%;
+    
+}
+#myBtn {
+    font-family: sans-serif;  
+    text-align: center; 
+    position:relative; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    z-index: 99; /* Make sure it does not overlap */
+    background-color: white; /* Set a background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px 15px; /* Some padding */
+    font-size: 18px; /* Increase font size */
+}
+p{
+    text-align: center;
+    font-family: sans-serif;  
+    padding-bottom: 0px; 
+}
+
+/* ABout Page */ 
+    /*flip card */ 
+.flip-card {
+    position:relative; 
+    background-color: transparent;
+    width: 98%;
+    height: 700px;
+    perspective: 1000px;
+    top:5%;
+    margin:auto auto; 
+    margin-bottom: -2%; 
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/ 
+    
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+      -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding-top: 2%; 
+    padding-bottom: 5%; 
+    font-family:inherit;
+    font-size:30px; 
+}
+
+.flip-card-front {
+    color: black;
+}
+
+.flip-card-back {
+    font-family:sans-serif; 
+    color: black;
+    transform: rotateY(180deg);
+    font-size:30px; 
+    text-align: center; 
+    padding-top: 6%; 
+    padding-bottom: 5%; 
+    padding-left: 10%; 
+    padding-right: 10%
+}
+    /* other*/ 
+.definition {
+    font-family:sans-serif; 
+    font-size:30px; 
+    margin-top: 5%; 
+    text-align: center; 
+    padding-top: 5%; 
+    padding-bottom: 5%; 
+    
+}
+/*.Denis_definition{
+    font-family: inherit; 
+    font-size:25px; 
+    background-color: antiquewhite; 
+    margin-top: 5%; 
+    text-align: center; 
+    padding-top: 5%; 
+    padding-left: 20%; 
+    padding-right: 20%; 
+}*/
+    /* Slide Shoe */ 
+* {box-sizing:border-box}
+
+
+/*their me page*/ 
+section img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+section {
+    margin-top: 5%;
+   text-align: center; 
+}
+
+.button_2 {
+	background-color: #E0B0FF;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-family: sans-serif; 
+	font-size: 20px;
+    margin-top: 5%; 
+}
+
+#greeting {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 30%;
+}
+
+#blog {
+	margin-top: 20px;
+	margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 30%;
+    text-align: center; 
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #E0B0FF;
+	font-family: sans-serif; 
+	font-size: 20px;
+	display: block;
+	width: 400px;
+    text-align: center; 
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+ul{
+    text-align: left; 
+}
+
+/* Animation */
+
+/*fish*/ 
+
+/* Franklin's Container */
+.fish {
+    width: 150px;
+    height: 150px;
+    background-image:url("image/fishyanimationframes1-vi.gif");
+    background-size: 100%; 
+  animation: swim 4s infinite; 
+}
+
+/* Franklin */
+/*
+.fish-body {
+      position: relative;
+      margin-top: 30px;
+      margin-left: 40px;
+    background-size: 200px 200px; 
+      background-image:url("image/fantasy-mermaid-scales-seamless-pattern-free-vector.jpeg");
+      border-radius: 50%;
+      width: 150px; 
+      height: 100px;
+
+}
+
+.eye {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 20px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.pupil {
+  position: absolute;
+  z-index: 2;
+  margin-left: 5px;
+  margin-top: 5px;
+  background-color: black;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+.fin {
+  margin-top: -100px; 
+  background-color: orange;
+  border-radius: 50%;
+  transform: rotate(30deg);
+  width: 80px;
+  height: 50px;
+}
+
+.fin-bottom {
+  margin-top: -10px;
+  transform: rotate(-40deg);
+}
+*/ 
+/* Bubbles */
+.bubbles {
+  position: absolute;
+  bottom: 0;
+  z-index: 5;
+  margin-right: 50px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: .50;
+  width: 40px;
+  height: 40px;
+  animation: up 4s infinite;
+}
+
+.bubble-2 {
+  left: 350px;
+  animation: up 2s infinite;
+}
+
+.bubble-3 {
+  left: 750px;
+  opacity: .30;
+  animation: up 5s infinite;
+}
+
+.bubble-4 {
+  left: 1150px;
+  animation: up 6s infinite;
+}
+
+.bubble-5 {
+  left: 50px;
+  animation: up 5s infinite;
+}
+
+.bubble-6 {
+  left: 300px;
+  opacity: .30;
+  animation: up 3s infinite;
+}
+
+.bubble-7 {
+  left: 670px;
+  animation: up 4s infinite;
+}
+
+.bubble-8 {
+  left: 1050px;
+  opacity: .30;
+  animation: up 3s infinite;
+}
+
+/* Swim Animation */
+@keyframes swim {
+  0% {
+    transform: translateY(0px) translateX(0) rotate(-10deg);
+  }
+  25% { 
+    transform: translateY(20px) translateX(350px) rotate(10deg);
+  }
+  50% {
+    transform: translateY(0px) translateX(600px);
+  }
+  75% {
+    transform: translateY(20px) translateX(950px) rotate(10deg);
+  }
+  100% {
+    transform: translateY(0px) translateX(1400px) rotate(-10deg);
+  }
+}
+/* Bubbles Animation */
+@keyframes up {
+  100% {
+    transform: translateY(-800px);
+  }
+}
+
+/*Life Style */
+.center{
+    z-index: -1; 
+    position: relative; 
+    top: 10%;  
+    margin-top: 5%; 
+    margin-left: 32%;
+     margin-bottom: 5%; 
+    width: 40%; 
+}
+.centertext{
+    position:absolute;
+    top:-20px; 
+    margin-left: 28%;
+    width: 50%; 
+    padding: auto; 
+}
+.HaveDinner {
+    position:absolute; 
+    transform: rotate(-50deg); 
+    width: 100px;
+    height: 100px; 
+    margin: 30%; 
+    animation: up 15s infinite;
+    padding-top:30%;
+    margin-left: 10%; 
+}
+
+.Travel {
+    position: absolute; 
+    transform: rotate(30deg); 
+    width: 100px;
+    height: 100px;
+    padding-top:50%; 
+    animation: up 14s infinite;
+    margin: 20%; 
+}
+.Read {
+    position:absolute; 
+    transform: rotate(-50deg); 
+    width: 100px;
+    height: 100px; 
+    right:500px;
+    padding-top:50%;
+    padding-left:50%;
+    animation: up 13s infinite;
+    margin: 40%; 
+}
+.Meditation {
+    position:absolute; 
+    transform: rotate(30deg); 
+    width: 100px;
+    height: 100px; 
+    animation: up 13s infinite;
+    margin:60%; 
+}
+.Sleep {
+    position:absolute; 
+    transform: rotate(-40deg); 
+    width: 100px;
+    height: 100px; 
+    padding-top:50%;
+    animation: up 15s infinite;
+    margin:25%; 
+}
+.Cook {
+    position:absolute; 
+    transform: rotate(50deg); 
+    width: 100px;
+    height: 100px; 
+    animation: up 12s infinite;
+    margin:50%; 
+}
+
+.Eat {
+    position:absolute; 
+    transform: rotate(-20deg); 
+    width: 100px;
+    height: 100px; 
+    animation: up 14s infinite;
+    margin:60%; 
+}
+.Listen Music {
+    position:absolute; 
+    transform: rotate(50deg); 
+    width: 100px;
+    height: 100px; 
+    animation: up 15s infinite;
+    margin:40%; 
+}
+.Excise {
+    position:absolute; 
+    transform: rotate(-70deg); 
+    width: 100px;
+    height: 100px; 
+    animation: up 20s infinite;
+    margin:50%; 
+}
+.WatchTV {
+    position:absolute; 
+    transform: rotate(50deg); 
+    width: 100px;
+    height: 100px; 
+    animation: up 15s infinite;
+    margin:60%; 
+}
