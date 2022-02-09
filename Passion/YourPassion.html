@@ -4,24 +4,26 @@
 		<meta charset="utf-8">
 		 <link rel="stylesheet" href="styles.css">
 		<script src="script/script.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Passion </title> 
 	</head>
-	
-	<body>
-		<div class ="header">
-                <br> &nbsp   Passion
-        </div>
+	<body id="PageStyle" onload="autoload();">
+		<h1> Passion </h1>
     <header>
 		<nav id="primary_nav_wrap">
                 <ul>    
                     <li class="current-menu-item"><a href="index.html">Home</a></li>
-                    <li><a href="#"> About </a></li>
-                    <li><a href="TheirMe.html"> Their me</a></li>
-                    <li><a href="about.html"> My mine </a>
-                    <li><a href="#"> My favorite </a></li>
+                    <li><a href="about.html"> About </a></li>
+                    <li><a href="YourPassion.html"> Your Passion</a></li>
+                    <li><a href="MyFavorate.html"> My Passion </a>
+                    <li><a href="LifeStyle.html"> Life Style </a></li>
                 </ul>
             </nav>
+        <div >
+					<button class="stylechange" onclick="OriginalStyle()"> 1
+					</button>
+					<button class="stylechange" onclick="ChangePageStyle1()">
+					2</button>
+        </div>
     </header>
 		<main>
             <section>
@@ -44,6 +46,9 @@
             </section>
 		</main>
 	</body>
+    <footer>
+                 <div onclick="topFunction()" id="myBtn" title="Go to top">Top</div>
+        </footer>
 </html>
 
 
