@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'press_start_2pregular';
+    src: url(fonts/'pressstart2p-regular-webfont.woff2') format('woff2'),
+         url('pressstart2p-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{ 
+    box-sizing:border-box; 
+}
+
+
+body{
+    font-size:16px; 
+    font-family: 'Creepster', cursive;
+    /*font-family: 'Eater', cursive;*/ 
+    /*font-family: 'Moo Lah Lah', cursive;*/
+    /*font-family: 'Press Start 2P', cursive;*/ 
+    font-style: italic;
+    font-weight: bold; 
+    background-color: lavenderblush;
+    
+    
+}
+.pear{
+    background-color: lightblue;
+    padding: 30px; 
+    border: 10px solid thistle; 
+    margin: 30px 70px; 
+    width: 300px; /* it will be flexible after the browser's window's width less than 300px */ 
+    height: 400px; 
+}
+p{
+    font-family: 'press_start_2pregular',cursive;
+}

@@ -1,0 +1,64 @@
+
+*{ 
+    box-sizing:border-box; 
+}
+body{
+    background: cornsilk; 
+    margin-top: 40px; 
+}
+
+
+.static{
+    position: static; 
+    background: tomato;
+    width: 300px;
+    height: 300px;  
+    margin:auto auto; /* center things */
+}
+
+.relative{
+    position:relative;
+    background:lightgreen; 
+    width:600px; 
+    height: 300px; 
+    /*box will move from the original position to where you set. */ 
+    top:60px; 
+    left:100px; 
+    /*right:100px; --> 100px from right edge*/ 
+    z-index: 20;   /* behind things on page*/ 
+    text-align: center; 
+    /*get a round corner; 50% to make it circle */
+    border-radius: 50%;
+    /* will see the content changes the position*/ 
+    padding: 30px; 
+}
+
+.fixed{
+    position:fixed;
+    background:pink;  
+    width:100%;  
+    height: 40px; 
+    /*nessary*/
+    /*top and left the from original position */ 
+    top:0; 
+    left:0; 
+    z-index: 10; 
+}
+
+.absolute {
+    position: absolute; 
+    background-color:lightblue; 
+    width: 100px;
+    height: 100px; 
+    bottom: 20px;
+    right:20px; 
+}
+.sticky{
+    /*doesn't work wt internet explorer */ 
+    position:sticky;
+    position: -webkit-sticky; 
+    background: lightgray; 
+    height:60px; 
+    top:40px; 
+    z-index:1; 
+}
