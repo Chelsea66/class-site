@@ -8,10 +8,9 @@
 }
 
 .Style1{
-	font-family:sans-serif; 
-	color:palevioletred; 
-	background-color:#A7C7E7;   
-    font-family: Comic San Ms;
+	font-family:'Reenie Beanie', cursive;
+	color:rebeccapurple; 
+	background-color: #FFD4F9;   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,7 +28,7 @@
 h1{
     position:relative; 
     font-size: 45px; 
-    font-family:monospace;
+    font-family:sans-serif; 
     text-align: center; 
     z-index:1; 
     width:100%;  
@@ -39,6 +38,8 @@ h1{
     margin-top: 2%;  
     padding-top: 10px; 
     z-index: 10; 
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
     
 }
 #primary_nav_wrap{
@@ -65,7 +66,7 @@ h1{
 	font-size:20px;
 	line-height:32px;
 	padding:0 15px;
-	font-family:monospace; 
+	font-family:sans-serif;  
 }
 
 #primary_nav_wrap ul li{
@@ -81,7 +82,7 @@ h1{
 article {
     position:center;
     text-align: center;
-    font-family: monospace;
+    font-family: sans-serif;
     font-size: 78px;
     margin-top: 5%;
     margin-bottom: 10%; 
@@ -119,7 +120,7 @@ article {
 
 .button-text{
   font-size: 20px;
-  font-family: monospace;
+  font-family: sans-serif;
   text-align: center;
     padding-bottom: 10%; 
 }
@@ -148,10 +149,11 @@ td {
     text-align: center; 
     position: relative; 
     width: 270px;
-    height: 270px;
-    background-color:lightgoldenrodyellow; 
+    height: 280px;
+    background-color:#BDF3F5; 
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: auto; 
+    border-radius: 10%; 
 }
 
 .note li{
@@ -165,9 +167,10 @@ td {
     position: relative; 
     width: 270px;
     height: 400px;
-    background-color:lightgoldenrodyellow; 
+    background-color:#BDF3F5; 
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: auto; 
+    border-radius: 10%; 
 }
 .note2 li{
     font-family: cursive; 
@@ -220,7 +223,7 @@ h2{
 
 *a{  
     text-decoration-color: black; 
-    font-family: monospace; 
+    font-family: sans-serif;  
     background-color:white; 
     margin-right: 45%;
     margin-left:45%;
@@ -229,25 +232,25 @@ h2{
 }
 
 a:hover{
-    font-family: monospace;
+    font-family: sans-serif; 
     background-color:beige;
     color:black;
 }
 
 a:focus{
-    font-family: monospace;
+    font-family: sans-serif; 
     background-color:#E0B0FF; 
     color: black;
 }
 
 footer{
     margin-top: 2%;
-    background-color:plum; 
+    background-color:rebeccapurple; 
     padding: 5%;
     
 }
 #myBtn {
-    font-family: monospace; 
+    font-family: sans-serif;  
     text-align: center; 
     position:relative; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
@@ -260,7 +263,7 @@ footer{
 }
 p{
     text-align: center;
-    font-family: monospace; 
+    font-family: sans-serif;  
     padding-bottom: 0px; 
 }
 
@@ -309,7 +312,7 @@ p{
 }
 
 .flip-card-back {
-    font-family:m;
+    font-family:sans-serif; 
     color: black;
     transform: rotateY(180deg);
     font-size:30px; 
@@ -321,7 +324,7 @@ p{
 }
     /* other*/ 
 .definition {
-    font-family:monospace;
+    font-family:sans-serif; 
     font-size:30px; 
     margin-top: 5%; 
     text-align: center; 
@@ -365,7 +368,7 @@ section {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-	font-family: monospace;
+	font-family: sans-serif; 
 	font-size: 20px;
     margin-top: 5%; 
 }
@@ -390,7 +393,7 @@ section {
 input[type=text] {
     border: none;
     border-bottom: 2px solid #E0B0FF;
-	font-family: monospace;
+	font-family: sans-serif; 
 	font-size: 20px;
 	display: block;
 	width: 400px;
