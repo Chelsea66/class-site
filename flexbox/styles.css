@@ -1,0 +1,125 @@
+*{
+    box-sizing:border-box;
+}
+
+/* Excerise */
+/*.block {
+    background-color: darkmagenta;
+    display: inline;  inline: the background color only covers on the text area
+} */
+
+/*span{
+    background-color:rgb(182,215,152);
+    margin-left: 1px;
+    margin-right: 1px;
+}
+*/
+body{
+    margin: 0;
+}
+
+
+.flexbox{
+    background-color:skyblue;
+    height:600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    /*flex-direction + flex-wrap = flex-flow: row wrap */
+    justify-content: space-evenly; /* space-betweeen: as much space as it can between the items */
+    align-items: center;
+    align-content: center;
+
+}
+
+.item {
+    font-family: fantasy;
+    text-align: center;
+    background-color: lightcyan;
+    display: inline;
+    width: 200px;
+    padding: 20px;
+    border-radius: 15%;
+}
+
+.main-container{
+    display: flex; 
+    background-color: #FAD7A0;
+    width: 100%;
+    height: 100vh; /* vh = v% equals height ; vw = v% equals weight */
+    padding: 10px;
+    gap:10px;
+    flex-direction: column; 
+}
+
+.top-row{
+    display:flex;
+    background-color: #FCF3CF;
+    height: 20%;
+    justify-content:space-evenly;
+    gap:10px;
+}
+.top-item {
+    text-align: center;
+    width: 100%;
+    background-color:#DAF7A6;
+
+}
+
+.bottom-row{
+    background-color: #FAD7A0;
+    height: 80%;
+    display: flex;
+    gap:10px; 
+}
+.left-half{
+    display: flex;
+    background-color: #F9E79F;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-half{
+    background-color: #F7DC6F;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px 10px;
+}
+
+.center-object{
+    background-color:#FAE5D3;
+    width: 20%;
+    height:20%;
+}
+
+.column-item{
+    background-color: darkgoldenrod;
+    height: 25%;
+}
+
+
+
+.object {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    animation: MoveUpDown 4s linear infinite;
+    position: absolute;
+    margin-bottom: 20%;
+
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+      font-size: 20px;
+  }
+  50% {
+      font-size: 50px;
+  }
+
+
+}
