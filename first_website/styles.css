@@ -1,22 +1,17 @@
 html {
     background: #6495ED; 
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 /*head {
     background-color: antiquewhite;
     font-family: "Times New Roman";
     
-}*/
-title {
-    background-color: antiquewhite;
-    font-family: "Times New Roman";
-    
-    
-}
+}*/  
 body{
+    font-family:inherit; 
     background-color:floralwhite;
     margin:0;
     
@@ -67,26 +62,29 @@ h6 {
     color:burlywood;
 }
 .special{
-    background: lightgray;
+    background: #6495ED;
     font-size: 3o px;
 }
 p{
     /*background-color: rgb(100,30,90);*/
-    background-color: darkkhaki;
+    background-color:lightblue; 
     text-align: center;
     font-size: 25px;
-    color: #FF7F50;
+    color:black; 
     /* border-width: 6px;
     border-style: solid;
     border-color:antiquewhite;*/
     
     /* if there are two same element linem, it will run the bottom code.*/
     /*border:6px solid darkgreen;*/
-    border:12px dashed pink;
+    border:8px dashed darksalmon;
     padding: 40px;
     padding: 10px;
     margin:50px;
     
+}
+div{
+    font-size: 10px; 
 }
 img{
     max-width:100%;

@@ -87,7 +87,7 @@ article {
     margin-top: 5%;
     margin-bottom: 10%; 
     /*background-color: aliceblue;*/
-    background-image:url("https://i.pinimg.com/originals/7b/38/fa/7b38faf4341a18bce5c7dcc4c4032644.gif");
+    background-image:url("image/conflict.gif");
     padding-top: 20%;
     padding-bottom:20%; 
     
@@ -653,4 +653,12 @@ ul{
     height: 100px; 
     animation: up 15s infinite;
     margin:60%; 
+}
+
+.source{
+    text-align: center; 
+    font-family: inherit; 
+    z-index: 100; 
+    font-size: 12px; 
+    color: aliceblue; 
 }
