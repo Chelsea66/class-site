@@ -1,0 +1,91 @@
+
+*{ 
+    box-sizing:border-box; 
+}
+
+body{
+    margin:0; 
+    background-color: darksalmon; 
+}
+
+.flex{
+    background-color:#ffce54; 
+    width:100vw;
+    height: 100vh; 
+    /*positioning*/
+    display: flex; 
+    align-items: center; 
+    justify-content:space-evenly;/*create the even space between the content items*/
+    
+}
+
+.circle{
+    /*size*/
+    width: 20vw;
+    height:20vw; 
+    /*shape style*/
+    background-color:#ed5564; 
+    border-radius: 50%; 
+    /*animation*/
+    /*animation: pulse 2s infinite alternate; */ 
+    /*animation: name + speed */ 
+    animation: pulse 1s infinite alternate; /*animation: name + speed + time to start*/
+}
+
+.square{
+    /*size*/
+    width: 20vw;
+    height:20vw; 
+    /*shape style*/
+    background-color: #ed5564; 
+    /*positioning*/
+    animation: spin 2s infinite linear; /*animation: name + speed + times + timing-function*/
+    
+    
+}
+.zoomer{
+    background-color: #4fc1e8;
+    width: 300px; 
+    height: 70px; 
+    position: fixed;  
+    bottom: 0; 
+    left:0; 
+    animation: zoom 3s infinite ease; /* open the html file on chrome --> go to inspect --> click "animate: animation-timing-function" on css --> be able to change the speed curve and see its data*/ 
+    
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(1); /* scale 1 = same size */ 
+        
+        /*width:20vw; 
+        height:20vw;*/  
+        background-color: #ed5564; 
+    }
+    100%{
+        transform: scale(1.5);/* scale 2 = size *2 */ 
+        /*width:30vw; 
+        height:30vw; */
+        background-color: #f77f00; 
+    }
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+        background-color: #a0d568; 
+    }
+    100%{
+        transform: rotate(360deg);
+        background-color: #ac92eb; 
+    }
+}
+
+@keyframes zoom{
+    0%{
+        transform: translateX(-300px);
+    }
+    100%{
+         transform: translateX(110vw); /* 100vw --> will move to the end to the screen */
+    }
+}
