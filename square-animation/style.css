@@ -1,0 +1,713 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 800px;
+  height: 800px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.hypnosis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  animation: size 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.revolution {
+  animation: revolve 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 45s;
+}
+
+.square-1 {
+  width: 10px;
+  height: 10px;
+  outline: 1px solid white;
+  animation: spin 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation: spin 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation: spin 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation: spin 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation: spin 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation: spin 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation: spin 60s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation: spin 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation: spin 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-13 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-14 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-15 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-16 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-17 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 170px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-18 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-19 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  height: 190px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-20 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-21 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  height: 210px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-22 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-23 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 230px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-24 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-25 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-26 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 260px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-27 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 270px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-28 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-29 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 290px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-30 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-31 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 310px;
+  height: 310px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-32 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 320px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-33 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 330px;
+  height: 330px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-34 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  height: 340px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-35 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-36 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 360px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-37 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 370px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-38 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 380px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-39 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 390px;
+  height: 390px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-40 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-41 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 410px;
+  height: 410px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-42 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 420px;
+  height: 420px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-43 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 430px;
+  height: 430px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-44 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 440px;
+  height: 440px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.square-45 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 450px;
+  margin: 0 auto;
+  outline: 1px solid white;
+  animation-name: spin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bw {
+  0% {
+    background: black;
+  }
+
+  100% {
+    background: white;
+  }
+}
+
+@keyframes size {
+  0% {
+    transform: scale(0);
+      background-color:red; 
+  }
+
+  50% {
+    transform: scale(1.3);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    border-radius:  100% 0% 100% 0%;
+    background-color:pink; 
+    
+  }
+  100% {
+    transform: rotate(360deg);
+    border-radius:  100% 0% 100% 0%;
+    background-color:red; 
+  }
+}
+
+@keyframes revolve {
+0% {
+  transform: skew(0deg, 0deg);
+}
+30% {
+  transform: skew(15deg, 35deg);
+}
+50% {
+  transform: skew(-50deg, -40deg);
+}
+70% {
+  transform: skew(10deg, 40deg);
+}
+100% {
+  transform: skew(0deg, 0deg);
+}
+
+}

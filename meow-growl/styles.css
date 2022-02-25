@@ -2,7 +2,7 @@
     box-sizing:border-box;
 }
 
-/* Excerise */
+/*Excise*/
 /*.block {
     background-color: darkmagenta;
     display: inline;  inline: the background color only covers on the text area
@@ -34,11 +34,11 @@ body{
 }
 
 .item {
-    margin-top: 5%; 
+    margin-top: 5%;
     font-family: fantasy;
     text-align: center;
     animation: MoveUpDown 4s linear infinite;
-    z-index: 10; 
+    z-index: 10;
 }
 
 
@@ -88,16 +88,16 @@ body{
 }
 .left-traffic-light{
     display: flex;
-    background-color: white; 
-    /*background-image: url("woodtexture.jpeg");*/ 
+    background-color: white;
+    /*background-image: url("woodtexture.jpeg");*/
     width: 15%;
     align-items: center;
-    justify-content:flex-end; 
+    justify-content:flex-end;
     flex-direction: column;
 }
 .cat-head{
     display: flex;
-    background-color: burlywood;
+    background-color: white;
     width: 70%;
     align-items: center;
     justify-content: center;
@@ -105,13 +105,13 @@ body{
     flex-wrap:wrap;
 }
 .right-traffic-light{
-    background-color: white; 
-    /*background-image: url("woodtexture.jpeg");*/ 
+    background-color: white;
+    /*background-image: url("woodtexture.jpeg");*/
     width: 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:flex-end; 
+    justify-content:flex-end;
     /* shape */
     border-radius: 10% 10% 0px 0px;
     border-top: 100% solid red;
@@ -121,21 +121,21 @@ body{
 .light-buld{
     font-size: 50px;
     display: flex;
-    background-color:burlywood; 
-    /*background:repeating-linear-gradient(darkgray, gray 150px);*/ 
+    background-color:burlywood;
+    /*background:repeating-linear-gradient(darkgray, gray 150px);*/
     height: 25%;
     width: 100%;
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
-    
+
 }
 
 .paw{
     font-size: 50px;
     display: flex;
-    background-color:burlywood; 
-    /*background:repeating-linear-gradient(darkgray, gray 150px);*/ 
+    background-color:burlywood;
+    /*background:repeating-linear-gradient(darkgray, gray 150px);*/
     height: 25%;
     width: 100%;
     align-items: center;
@@ -145,7 +145,7 @@ body{
     border-radius: 100% 100% 0px 0px;
     border-top: 100% solid red;
     border-right: 100% solid transparent;
-    
+
 }
 .cat-head-puzzle{
     display: flex;
@@ -154,9 +154,9 @@ body{
     width: 20%;
     align-items: center;
     flex-direction: column;
-    justify-content:center; 
+    justify-content:center;
     align-content: center;
-    
+
 }
 
 
@@ -164,7 +164,7 @@ body{
     display:flex;
     width: 70%;
     height: 70%;
-    background-color: lightpink; 
+    background-color: lightpink;
     /*background:repeating-linear-gradient(brown, red 125px);*/
     border-radius: 50%;
     margin: 10px auto;
@@ -236,7 +236,7 @@ body{
     height: 20%;
     width: 20%;
     flex-direction: column;
-    justify-content:flex-end; 
+    justify-content:flex-end;
 }
 
 .left-cat-ear{
@@ -248,34 +248,34 @@ body{
     border-radius: 100% 0px 0px 0px;
     background: burlywood;
     width: 100%;
-    height: 100%; 
+    height: 100%;
     border-top: 100% solid red;
-    border-right: 100% solid transparent; 
+    border-right: 100% solid transparent;
 }
 
 .left-cat-small-ear{
     /* Position*/
     display:flex;
     flex-flow: column;
-    margin-left: 50%; 
+    margin-left: 50%;
     /* Shape*/
     border-radius: 100% 0px 0px 0px;
-    background-color: bisque; 
+    background-color: bisque;
     width:50%;
-    height: 50%; 
+    height: 50%;
     border-top: 100% solid red;
-    border-right: 100% solid transparent; 
+    border-right: 100% solid transparent;
 }
 
 .right-cat-ear{
     display:flex;
     flex-flow: column;
-    justify-content: flex-end; 
+    justify-content: flex-end;
     /* Shape*/
     border-radius: 0px 100% 0px 0px;
-    background-color:burlywood; 
+    background-color:burlywood;
     width:70%;
-    height: 100%; 
+    height: 100%;
     border-top: 100% solid red;
     border-right: 100% solid transparent;
 }
@@ -283,14 +283,14 @@ body{
     /* Position*/
     display:flex;
     flex-flow: column;
-    margin-right: 50%; 
+    margin-right: 50%;
     /* Shape*/
     border-radius:  0px 100% 0px 0px;
-    background-color: bisque; 
+    background-color: bisque;
     width:50%;
-    height: 50%; 
+    height: 50%;
     border-top: 100% solid red;
-    border-right: 100% solid transparent; 
+    border-right: 100% solid transparent;
 }
 
 .right-cat-ear-2{
@@ -302,29 +302,29 @@ body{
     border-radius: 0px 100% 0px 0px;
     background: burlywood;
     width: 100%;
-    height: 100%; 
+    height: 100%;
     border-top: 100% solid red;
-    border-right: 100% solid transparent; 
+    border-right: 100% solid transparent;
 }
 .left-cat-ear-2{
     /* Position*/
     display:flex;
     flex-flow: column;
     justify-content:flex-end;
-    margin-left:30%; 
+    margin-left:30%;
     /* Shape*/
     border-radius: 100% 0px 0px 0px;
-    background-color: burlywood; 
+    background-color: burlywood;
     width: 70%;
-    height: 100%; 
+    height: 100%;
     border-top: 100% solid red;
-    border-right: 100% solid transparent; 
+    border-right: 100% solid transparent;
 }
 .nose{
     display:flex;
     width: 30%;
     height: 30%;
-    background:brown; 
+    background:brown;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     margin: 10px auto;
     flex-wrap:wrap;
@@ -343,7 +343,7 @@ body{
 
 .left-box-animation{
     display: flex;
-    background-color:orange; 
+    background-color:orange;
     width: 20%;
     height: 100%;
     flex-direction: row;
@@ -370,16 +370,16 @@ body{
 }
 
 .whisker-reverse{
-    display: flex; 
-    background-color: darkred; 
+    display: flex;
+    background-color: darkred;
     height: 25%;
     width: 80%;
-    flex-direction: row-reverse; 
+    flex-direction: row-reverse;
 }
 
 .right-box-animation{
     display: flex;
-    background-color:orange; 
+    background-color:orange;
     width: 20%;
     height: 100%;
     animation: 4s right-box infinite alternate ease-in-out;
@@ -548,4 +548,4 @@ body{
         transform: translate(0, 0)
   }
 }
-*/ 
+*/

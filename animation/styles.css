@@ -25,11 +25,12 @@ body{
     height:20vw; 
     /*shape style*/
     background-color:#ed5564; 
-    border-radius: 50%; 
+    /*border-radius: 50%; */ 
     /*animation*/
     /*animation: pulse 2s infinite alternate; */ 
     /*animation: name + speed */ 
-    animation: pulse 1s infinite alternate; /*animation: name + speed + time to start*/
+    animation: pulse 1s infinite, spin 2s infinite linear alternate; /*animation: name + speed + time to start*/
+    /*spin 2s infinite linear alternate;--> once add a;ternate in the spin, the direction will reverse*/
 }
 
 .square{
@@ -72,11 +73,11 @@ body{
 
 @keyframes spin{
     0%{
-        transform: rotate(0deg);
+        transform: rotate(0deg) scale(1);
         background-color: #a0d568; 
     }
     100%{
-        transform: rotate(360deg);
+        transform: rotate(360deg)scale(1.3);
         background-color: #ac92eb; 
     }
 }
