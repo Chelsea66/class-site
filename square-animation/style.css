@@ -667,7 +667,6 @@ img {
 @keyframes size {
   0% {
     transform: scale(0);
-      background-color:red; 
   }
 
   50% {
