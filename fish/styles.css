@@ -1,0 +1,159 @@
+*{
+    box-sizing:border-box;
+}
+
+/* Excise */
+/*.block {
+    background-color: darkmagenta;
+    display: inline;  inline: the background color only covers on the text area
+} */
+
+/*span{
+    background-color:rgb(182,215,152);
+    margin-left: 1px;
+    margin-right: 1px;
+}
+*/
+body{
+    display: flex; 
+    justify-content: center; 
+    margin: 0;
+    background-color: skyblue; 
+}
+
+
+.main-container{
+    display: flex; 
+    width: 80%;
+    height: 100vh; /* vh = v% equals height ; vw = v% equals weight */
+    padding: 10px;
+    flex-direction: column; 
+}
+
+.top-row{
+    display:flex;
+    height: 50%; 
+    flex-direction: row; 
+}
+.top-item_1 {
+    display: flex; 
+    height: 100%; 
+    width: 50%;
+    flex-direction: column; 
+    justify-content:flex-end; 
+}
+
+.top-item_2 {
+    display: flex; 
+    height: 100%; 
+    width: 50%;
+    flex-direction: column; 
+
+}
+
+.fish-top-body{ 
+    display: flex; 
+    text-align: center;
+    height: 75%;
+    margin-left: 20%; 
+    width: 80%;
+    border-radius: 100% 0px 0px 0px;
+    background-color:#ED86B6;
+    flex-direction: column; 
+    justify-content: flex-end; 
+}
+
+.fish-blank-body{ 
+    display: flex; 
+    text-align: center;
+    margin-left: 65%;  
+    height: 55%;
+    width: 35%;
+    border-radius: 100% 0px 0px 0px;
+    background-color:skyblue; 
+}
+
+
+.fish-tail-top{
+    display: flex; 
+    text-align: center;
+    margin-top: 8%; 
+    height: 30%;
+    width: 50%;
+    border-radius:50% 10% 50% 0%;
+    background-color:#BF1E6D;
+}
+.fish-tail-bottom{
+    display: flex;
+    text-align: center;
+    height: 30%;
+    width: 50%;
+    border-radius: 0px 50% 10% 50%;
+    background-color:#BF1E6D;
+}
+
+.bottom-row{
+    height: 50%;
+    display: flex;
+}
+.left-half{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-start; 
+    flex-direction: column; 
+}
+
+.fish-bottom-body{ 
+    display: flex; 
+    text-align: center;
+     margin-left: 20%; 
+    height: 100%;
+    width: 80%;
+    border-radius: 0px 0px 0px 100%;
+    background-color:#ED86B6;
+    flex-direction: column; 
+}
+
+.fish-bottom-blank-body{ 
+    display: flex; 
+    text-align: center;
+    margin-left: 65%; 
+    height: 40%;
+    width: 35%;
+    border-radius: 0px 0px 0px 100%;
+    background-color:skyblue;
+}
+
+
+
+.right-half{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.fish-head{ 
+    display: flex; 
+    text-align: center; 
+    height: 60%;
+    width: 50%;
+    border-radius: 0px 100% 0px 0px;
+    background-color:#BF1E6D;
+    flex-direction: column; 
+    align-content: center; 
+    justify-content: center; 
+}
+
+.fish-eye{ 
+    display: flex; 
+    margin-left: 20%; 
+    text-align: center;
+    height: 25%;
+    width: 20%;
+    border-radius: 50%; 
+    background-color: black; 
+}
+
+
