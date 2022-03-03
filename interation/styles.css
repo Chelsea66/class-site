@@ -1,0 +1,24 @@
+
+*{ 
+    box-sizing:border-box; 
+}
+
+body{
+     
+}
+
+.object{
+    background-color: burlywood;
+    width:100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    position: absolute; 
+    top:50%;
+    left: 50%;
+}
+
+.object:hover{
+    background-color: cadetblue; 
+    transform: scale(2); 
+    
+}
