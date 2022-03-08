@@ -86,8 +86,26 @@ body{
     width: 70%;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+.cat-face{
+    display: flex;
+    width: 100%;
+    height: 70%; 
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
     flex-wrap:wrap;
+    background-color: burlywood; 
+}
+.cat-ear{
+    display: flex;
+    width: 100%;
+    height: 30%; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 .right-traffic-light{
     /*background-image: url("woodtexture.jpeg");*/
@@ -134,7 +152,7 @@ body{
 .cat-head-puzzle{
     display: flex;
     background-color: burlywood;
-    height: 20%;
+    height: 25%;
     width: 20%;
     align-items: center;
     flex-direction: column;
@@ -216,8 +234,8 @@ body{
 
 .cat-head-puzzle-ear{
     display: flex;
-    height: 20%;
-    width: 20%;
+    height: 100%;
+    width: 100%;
     flex-direction: column;
     justify-content:flex-end;
 }
@@ -261,6 +279,8 @@ body{
     height: 100%;
     border-top: 100% solid red;
     border-right: 100% solid transparent;
+    position: relative;
+    left:-2px; 
 }
 .right-cat-small-ear{
     /* Position*/
@@ -274,6 +294,8 @@ body{
     height: 50%;
     border-top: 100% solid red;
     border-right: 100% solid transparent;
+    position: relative;
+    left:-2px; 
 }
 
 .right-cat-ear-2{
@@ -288,6 +310,7 @@ body{
     height: 100%;
     border-top: 100% solid red;
     border-right: 100% solid transparent;
+    
 }
 .left-cat-ear-2{
     /* Position*/
@@ -302,6 +325,8 @@ body{
     height: 100%;
     border-top: 100% solid red;
     border-right: 100% solid transparent;
+    position: relative;
+    right:-2px; 
 }
 .nose{
     display:flex;

@@ -1,0 +1,98 @@
+
+*{ 
+    box-sizing:border-box; 
+    font-size:25px;
+}
+
+body{
+}
+
+.object{
+    background-color: burlywood;
+    width:100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    position: absolute; 
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    transition: background-color .5s ease,
+    transform 1s,border-radius 1s;
+    cursor:help;/* change the mouse*/ 
+    transform-origin:top left; /* works to se the object in the center; */ 
+    /* if we do scale, if will count from the obejct's left and right corner */ 
+}   
+
+.object:hover{
+    background-color: transparent; 
+    transform: scale(2) translate(-50%,-50%); 
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 100px solid darkseagreen;
+    border-radius: 50% transparent;
+}
+
+/*class sample*/ 
+
+p{
+font-size:25px;
+}
+
+img{
+  max-width:300px;
+}
+
+.special{
+  color:rgb(62, 199, 117);
+}
+
+.special:hover{
+color:rgb(255, 255, 255);
+cursor:help;
+}
+
+.hidden{
+  position:absolute;
+  bottom:10px;
+  left:10px;
+  opacity:0;
+  transition:opacity .5s;
+}
+
+.hello-text{
+  top:10px;
+  right:10px;
+  bottom:auto;
+  left:auto;
+  background-color: rgb(34, 151, 236);
+}
+
+.special:hover + .hidden{
+  opacity:1;
+}
+
+
+
+/*nth-of-type*/ 
+.interesting li:nth-of-type(3){
+  color:rgb(34, 151, 236);
+
+}
+
+.interesting li:nth-of-type(1){
+  color:rgb(62, 199, 117);
+
+}
+
+.hidden_2{
+  position:absolute;
+  bottom:10px;
+  left:10px;
+  opacity:0;
+  transition:opacity .5s;
+}
+
+.interesting li:nth-of-type(2){
+  color:rgb(255, 219, 68);
+
+}

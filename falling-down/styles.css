@@ -1,0 +1,116 @@
+
+*{ 
+    box-sizing:border-box; 
+    font-size:25px;
+}
+
+body{
+    background: url("falling-sky.gif");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 750px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.object{
+    width:200%; 
+    border-radius: 50%; 
+    position: absolute; 
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    transition: background-color .5s ease,
+    transform 1s,border-radius 1s;
+    cursor:help;/* change the mouse*/ 
+    transform-origin:top left; /* works to se the object in the center; */ 
+    /* if we do scale, if will count from the obejct's left and right corner */ 
+    opacity:0;
+}   
+
+.object:hover{
+    opacity:1;
+    background-color: transparent; 
+    transform: scale(2) translate(-50%,-50%); 
+}
+
+/*class sample*/ 
+
+p{
+font-size:25px;
+}
+
+img{
+  max-width:300px;
+}
+
+.special{
+  color:rgb(62, 199, 117);
+}
+
+.special:hover{
+color:rgb(255, 255, 255);
+cursor:help;
+}
+
+.hidden{
+  position:absolute;
+  bottom:10px;
+  left:10px;
+  opacity:0;
+  transition:opacity .5s;
+}
+
+.thanks-text{
+    font-family: fantasy; 
+    text-align: center; 
+    text-shadow: 2px 2px 4px gray; 
+    color: white; 
+    left: 60%; 
+    top:65%; 
+}
+.center-text{
+    font-family: fantasy; 
+    letter-spacing: 4px; 
+    text-align: center; 
+    text-shadow: 2px 2px 5px black; 
+    color: white; 
+    opacity: 0.7;
+    margin-top:10%; 
+}
+.center-text_2{
+    font-size:12px; 
+    font-family: fantasy; 
+    letter-spacing: 1px; 
+    text-align: center; 
+    text-shadow: 2px 2px 4px black; 
+    color: white; 
+    opacity: 0.7; 
+    margin-top:-30px; 
+}
+.center-text_1{
+    font-size:12px; 
+    font-family: fantasy; 
+    letter-spacing: 10px; 
+    text-align: center; 
+    text-shadow: 2px 2px 4px black; 
+    color: white; 
+    opacity: 0.7; 
+}
+
+.special:hover + .hidden{
+  opacity:1;
+}
+
+span{
+    position: absolute; 
+    text-align: center;
+    top:70%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    transform-origin:top left;
+    
+}
+
+
+
