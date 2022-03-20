@@ -1,0 +1,351 @@
+
+*{ 
+    box-sizing:border-box; 
+}
+
+body{
+    background: url(image/12.jpg); 
+}
+.water{
+    padding-top: 2%; 
+    display:flex; 
+    font-size: 40px; 
+    justify-content: center;
+    align-items:center; 
+    text-align: center; 
+}
+.subtitle{
+    display:flex; 
+     justify-content: center;
+    align-items:center; 
+     text-align: center; 
+}
+.desktop-box{
+    background-color:transparent; 
+    height: 100px; 
+    display: flex; 
+    justify-content: center; 
+    align-items:center; 
+    font-family: inherit; 
+}
+.black-space{
+    height: 100px; 
+    background-color: transparent; 
+    display: flex; 
+}
+
+.ocean{
+    height: 100px; 
+    justify-content: center; 
+    align-items:center; 
+    display: none; /* make it invisible*/
+}
+.ice{
+    height: 100px; 
+    justify-content: center; 
+    align-items:center; 
+    display: none; /* make it invisible*/
+}
+.ground-water{
+    height: 100px; 
+    justify-content: center; 
+    align-items:center; 
+    display: none; /* make it invisible*/
+}
+.soil-moisture{
+    height: 100px; 
+    justify-content: center; 
+    align-items:center; 
+    display: none; /* make it invisible*/
+}
+
+.lakes{
+    height: 100px; 
+    justify-content: center; 
+    align-items:center; 
+    display: none; /* make it invisible*/
+}
+
+.atmosphere{
+    height: 100px; 
+    justify-content: center; 
+    align-items:center; 
+    display: none; /* make it invisible*/
+}
+
+.swamp-water{
+    height: 100px; 
+    justify-content: center; 
+    align-items:center; 
+    display: none; /* make it invisible*/
+}
+
+.rivers{
+    height: 100px; 
+    justify-content: center; 
+    align-items:center; 
+    display: none; /* make it invisible*/
+}
+
+.biological-water{
+    height: 100px; 
+    justify-content: center; 
+    align-items:center; 
+    display: none; /* make it invisible*/
+}
+/*change the background color if we the resized the screen size
+if the screen width less than 900px, it will change the following elements. 
+*/
+/*major screen: computer design --> max deisgn*/
+/* major screen: mobile design --> min-width*/ 
+@media screen and (max-width:1600px){
+    body{
+        background:url(image/1.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        height:100vh; 
+    }
+    .blank-space{
+        display: none;
+    }
+    .ocean{
+        display: flex; 
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background:url(image/2.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        height:100vh; 
+    }
+    .blank-space{
+        display: none;
+    }
+    .ocean{
+        display: none; 
+    }
+    .ice{
+        display: flex; 
+    }
+}
+
+
+@media screen and (max-width:1280px){
+    body{
+        background:url(image/3.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        height:100vh; 
+    }
+    .blank-space{
+        display: none;
+    }
+    .ocean{
+        display: none; 
+    }
+    .ice{
+        display: none; 
+    }
+    .ground-water{
+        display: flex; 
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background:url(image/4.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        height:100vh; 
+    }
+    .blank-space{
+        display: none;
+    }
+    .ocean{
+        display: none; 
+    }
+    .ice{
+        display: none; 
+    }
+    .ground-water{
+        display: none; 
+    }
+    .soil-moisture{
+        display: flex; 
+    }
+}
+@media screen and (max-width:900px){
+    body{
+        background:url(image/5.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        height:100vh; 
+    }
+    .blank-space{
+        display: none;
+    }
+    .ocean{
+        display: none; 
+    }
+    .ice{
+        display: none; 
+    }
+    .ground-water{
+        display: none; 
+    }
+    .soil-moisture{
+        display: none; 
+    }
+    .lakes{
+        display: flex; 
+    }
+}
+
+
+@media screen and (max-width:800px){
+    body{
+        background:url(image/6.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        height:100vh; 
+    }
+    .blank-space{
+        display: none;
+    }
+    .ocean{
+        display: none; 
+    }
+    .ice{
+        display: none; 
+    }
+    .ground-water{
+        display: none; 
+    }
+    .soil-moisture{
+        display: none; 
+    }
+    .lakes{
+        display: none; 
+    }
+    .atmosphere{
+        display: flex; 
+    }
+}
+
+/*+++*/ 
+@media screen and (max-width:700px){
+    /*Phone*/ 
+    body{
+        background:url(image/7.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        height:100vh; 
+    }
+    .blank-space{
+        display: none;
+    }
+    .ocean{
+        display: none; 
+    }
+    .ice{
+        display: none; 
+    }
+    .ground-water{
+        display: none; 
+    }
+    .soil-moisture{
+        display: none; 
+    }
+    .lakes{
+        display: none; 
+    }
+    .atmosphere{
+        display: none; 
+    }
+    .swamp-water{
+        display: flex; 
+    }
+}
+
+
+@media screen and (max-width:600px){
+    /*Phone*/ 
+    body{
+        background:url(image/8.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        height:100vh; 
+    }
+    .blank-space{
+        display: none;
+    }
+    .ocean{
+        display: none; 
+    }
+    .ice{
+        display: none; 
+    }
+    .ground-water{
+        display: none; 
+    }
+    .soil-moisture{
+        display: none; 
+    }
+    .lakes{
+        display: none; 
+    }
+    .atmosphere{
+        display: none; 
+    }
+    .swamp-water{
+        display: none; 
+    }
+    .rivers{
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    /*Phone*/ 
+    body{
+        background:url(image/9.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        height:100vh; 
+    }
+    .blank-space{
+        display: none;
+    }
+    .ocean{
+        display: none; 
+    }
+    .ice{
+        display: none; 
+    }
+    .ground-water{
+        display: none; 
+    }
+    .soil-moisture{
+        display: none; 
+    }
+    .lakes{
+        display: none; 
+    }
+    .atmosphere{
+        display: none; 
+    }
+    .swamp-water{
+        display: none; 
+    }
+    .rivers{
+        display: none;
+    }
+    .biological-water{
+        display: flex;
+    }
+}
+
+

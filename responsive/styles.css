@@ -1,0 +1,87 @@
+
+*{ 
+    box-sizing:border-box; 
+}
+
+body{
+    background-color: darkseagreen; 
+    /*vw will include the margin area*/
+    /* once the margin=0; + width=50%; will equal to width = 50vw */
+}
+
+.desktop-box{
+    background-color:darkturquoise; 
+    height: 100px; 
+    display: flex; 
+    justify-content: center; 
+    align-items:center; 
+}
+
+.mobile-box{
+    background-color:darkturquoise; 
+    height: 100px; 
+    display: flex; 
+    justify-content: center; 
+    align-items:center; 
+    display: none; /* make it invisible*/
+}
+.checkers{
+    display: flex;
+}
+
+.box{
+    width:100%; 
+    height: 100px;
+    /*paragraph --> doesn't need box height for flexibility ; box need to set up the height */
+}
+
+.light{
+    background-color:antiquewhite; 
+    
+}
+
+.dark{
+    background-color: darkgoldenrod; 
+}
+.object-below{
+    background-color:azure; 
+    height: 200px; 
+    border-radius:50%; 
+    transition: border-radius 1s; 
+}
+
+/*change the background color if we the resized the screen size
+if the screen width less than 900px, it will change the following elements. 
+*/
+/*major screen: computer design --> max deisgn*/
+/* major screen: mobile design --> min-width*/ 
+@media screen and (max-width:900px){
+    /*Tablet*/ 
+    body{
+        background-color:cornflowerblue; 
+    }
+    
+    /*change oval to square*/
+    .object-below{
+        background-color: palevioletred; 
+        border-radius: 10px; 
+    }
+}
+/*recommend mobile size: 600px*/ 
+@media screen and (max-width:600px){
+    /*Phone*/ 
+    .checkers{
+        flex-wrap:wrap; 
+    }    
+    .box{
+        width:33.33%; 
+    }
+    .mobile-box{
+        display: flex; 
+    }
+    .desktop-box{
+        display: none; 
+    }
+}
+
+
