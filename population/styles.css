@@ -90,8 +90,8 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height:100px;
-    width: 250px; 
+    height:17%;
+    width: 60%; 
     display: flex;
     padding-top: 10%;
     padding-bottom: 15%;
@@ -130,8 +130,8 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height:100px;
-    width: 250px; 
+    height:17%;
+    width: 60%; 
     display: flex;
     padding-top: 10%;
     padding-bottom: 15%;
@@ -148,11 +148,6 @@ if the screen width less than 900px, it will change the following elements.
         background-color:cornflowerblue; 
     }
     
-    /*change oval to square*/
-    .object-below{
-        background-color: palevioletred; 
-        border-radius: 10px; 
-    }
 }
 /*recommend mobile size: 600px*/ 
 @media screen and (max-width:600px){
