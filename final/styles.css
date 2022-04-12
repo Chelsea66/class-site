@@ -1,0 +1,190 @@
+
+*{ 
+    box-sizing:border-box; 
+}
+
+.container{
+    background-color: red; 
+    display: flex; 
+    flex-direction: row;
+    width: 100vw;  
+    height: 100vh; 
+}
+
+.leftbox{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content:center; 
+    align-items: center; 
+    width: 20vw;
+    height:100vh;
+}
+.fork{
+    background: url(fork.png);
+    display: flex;
+    width:16vw;
+    height:80vh;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size:contain;
+}
+.middlebox{
+    background-color:beige;
+    flex-direction: row;
+    justify-content:center; 
+    align-items: center; 
+    display: flex; 
+    width:60vw;
+    height: 100vh;
+    
+}
+/*.plate{
+    background:url("plate.png");
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    width:93%;
+    height: 93%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+} 
+ */
+
+.plate{
+    background:url("plate.png");
+    display: flex; 
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+    align-content:center;
+    flex-wrap:wrap; 
+    width:93%;
+    height: 93%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.link{
+    display: flex; 
+    align-content: space-around; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height:100px;
+    width: 100px; 
+}
+
+.sticker{ 
+    display: flex; 
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+    align-content:center;
+    flex-wrap:wrap; 
+    width:60%;
+    height: 60%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/*sticker*/
+.sticker_1{
+    background:url(arrivals.png);
+    width:33%;
+    height: 33%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+}
+.sticker_2{
+    background:url(away.png);
+    width:33%;
+    height: 33%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+}
+.sticker_3{
+    background:url(besttrip.png);
+    width:33%;
+    height: 33%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+}
+.sticker_4{
+    background:url(letsgo.png);
+    width:33%;
+    height: 33%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+}
+.sticker_5{ 
+    background:url(makingstory.png); 
+    width:33%;
+    height: 33%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+}
+.sticker_6{
+    background:url(roadtrip.png);
+    width:33%;
+    height: 33%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+}
+
+.sticker_6{
+    background:url(roadtrip.png);
+    width:33%;
+    height: 33%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+}
+.sticker_7{
+    background:url(herewego.png);
+    width:33%;
+    height: 33%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+}
+.sticker_8{
+    background:url(goexplore.png);
+    width:33%;
+    height: 33%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+}
+/*right*/ 
+
+.rightbox{
+    background-color: antiquewhite; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 20vw;
+    height:100vh;
+}
+
+.knife{
+    background: url(knife.png);
+    display: flex;
+    width:18vw;
+    height:84vh;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size:contain;
+}
+
+

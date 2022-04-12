@@ -175,8 +175,7 @@ if the screen width less than 900px, it will change the following elements.
         align-content:center; 
         align-items:center;
         flex-wrap:wrap; 
-        gap:2%;
-        
+        gap:2%;    
     }
     .window_2{
          display: none; 

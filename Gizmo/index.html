@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Javascript</title>
+        <link rel="stylesheet" href = "styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <!-- jQuery HTML line--> 
+        <!-- https://github.com/aamirafridi/jQuery.Marquee--> 
+        <div class='marquee draggable'>Drag them around. Drag them around. Drag them around. Drag them around. Drag them around.  </div>
+        <!-- first we set up the button that is triggering our javascript -->
+        
+        <div class="button">
+            <button onclick="toggle()">Click me</button> 
+        </div>
+
+        <!-- the box that we will be altering with our javascript -->
+        <div id="box" class="sidebar draggable_1">
+          the box
+        </div>
+        
+        <!-- https://jqueryui.com/draggable/ -> view scource --> 
+        <div class="pages">
+            <div class="draggable_1">  </div>
+            <div class="draggable_2"> </div>
+            <div class="draggable_3"></div>
+            <div class="draggable_4"></div>
+        </div>
+        
+    
+        <!-- jQuery--> 
+        <!-- order is important, think the relationship between them.--> 
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="jquery.marquee.min.js"></script>
+       <!--  copy the script line from https://releases.jquery.com/ui/, and put it before the functions.js--> 
+        <script
+            src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+            integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY="
+            crossorigin="anonymous">
+        </script>
+        <script src="functions.js"></script>
+        <!--the browser read the function from top to bottom
+        Script : 
+        1. search ID box in html. 
+        2. https://developer.mozilla.org/en-US/docs/Web/API/Element/classList 
+        classlist = a javascript function. 
+        -->
+    </body>
+</html> 
