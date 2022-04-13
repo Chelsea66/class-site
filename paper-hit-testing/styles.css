@@ -1,0 +1,56 @@
+
+body {
+    height: 100%;
+}
+
+/* Scale canvas with resize attribute to full size */
+canvas[resize] {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background-color:#F7DC6F ; 
+}
+
+*{
+    box-sizing:border-box;
+}
+
+.container{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.leftbox{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width: 20vw;
+    height:100vh;
+}
+
+.middlebox{
+    background-color:beige;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    width:60vw;
+    height: 100vh;
+
+}
+
+/*right*/
+
+.rightbox{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height:100vh;
+}
