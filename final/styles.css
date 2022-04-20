@@ -54,7 +54,7 @@
  */
 
 .plate{
-    background:url("plate.png");
+    background:url("plate_alarm.png");
     display: flex; 
     flex-direction: row;
     align-items: center; 
@@ -65,21 +65,24 @@
     height: 93%;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-size: contain; /* Resize the background image to cover the entire container */
 }
 
 .link{
-    display: flex; 
-    align-content: space-around; 
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-    height:100px;
-    width: 100px; 
+    text-align: center; 
+    position: absolute;
+    width:33.33%;
+    height:33.33%;;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    top:65%;
+    right:33.33%;
+    /*z-index: -1;*/  
 }
 
 .sticker{ 
-    display: flex; 
+    position: relative; 
     flex-direction: row;
     align-items: center; 
     justify-content: center; 
@@ -91,80 +94,119 @@
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
+.sticker:hover{
+    animation: shake 5s infinite;
+}
+
+@keyframes shake {
+  from {transform: rotate(-20deg);}
+  to {transform: rotate(30deg);}
+}
 
 /*sticker*/
+/*position: absolute*/
 .sticker_1{
+    position: absolute;
     background:url(arrivals.png);
-    width:33%;
-    height: 33%;
+    width:33.33%;;
+    height:33.33%;;
     background-position: center;
     background-repeat: no-repeat; 
     background-size: contain; 
+    top:40%;
+    right:35%;
 }
 .sticker_2{
+    position: absolute;
     background:url(away.png);
-    width:33%;
-    height: 33%;
+    width:33.33%;;
+    height:33.33%;;
     background-position: center;
     background-repeat: no-repeat; 
     background-size: contain; 
+    top:30%;
+    right:10%;
 }
 .sticker_3{
+    position: absolute;
     background:url(besttrip.png);
-    width:33%;
-    height: 33%;
+    width:33.33%;;
+    height: 33.33%;;
     background-position: center;
     background-repeat: no-repeat; 
     background-size: contain; 
+    top:28%;
+    right:60%;
+    transform: rotate(30deg);
 }
 .sticker_4{
+    position: absolute;
     background:url(letsgo.png);
-    width:33%;
-    height: 33%;
+    width:33.33%;;
+    height:33.33%;;
     background-position: center;
     background-repeat: no-repeat; 
     background-size: contain; 
+    top:70%;
+    right:40%;
 }
 .sticker_5{ 
+    position: absolute; 
     background:url(makingstory.png); 
-    width:33%;
-    height: 33%;
+    width:33.33%;;
+    height: 33.33%;;
     background-position: center;
     background-repeat: no-repeat; 
     background-size: contain; 
+    top:70%;
+    right:15%;
 }
 .sticker_6{
+    position: absolute; 
     background:url(roadtrip.png);
-    width:33%;
-    height: 33%;
+    width:33.33%;;
+    height: 33.33%;;
     background-position: center;
     background-repeat: no-repeat; 
     background-size: contain; 
+    top:45%;
+    right:5%;
 }
 
 .sticker_6{
+    position: absolute; 
     background:url(roadtrip.png);
-    width:33%;
-    height: 33%;
+    width:33.33%;;
+    height: 33.33%;;
     background-position: center;
     background-repeat: no-repeat; 
-    background-size: contain; 
+    background-size: contain;
+    top:45%;
+    right:5%;
 }
 .sticker_7{
+    position: absolute;
     background:url(herewego.png);
-    width:33%;
-    height: 33%;
+    width:33.33%;;
+    height: 33.33%;;
     background-position: center;
     background-repeat: no-repeat; 
     background-size: contain; 
+    top:55%;
+    right:60%;
+    transform: rotate(-20deg);
 }
 .sticker_8{
+    position: absolute;
     background:url(goexplore.png);
-    width:33%;
-    height: 33%;
+    width:33.33%;;
+    height: 33.33%;;
     background-position: center;
     background-repeat: no-repeat; 
     background-size: contain; 
+    top:80%;
+    right:50%;
+    transform: rotate(30deg);
 }
 /*right*/ 
 

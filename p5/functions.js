@@ -23,7 +23,7 @@ function draw() {
 
 }
 
-function branch() {
+function branch(h) {
   // Each branch will be 2/3rds the size of the previous one
   h *= 0.66;
 

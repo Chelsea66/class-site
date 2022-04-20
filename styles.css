@@ -6,28 +6,40 @@ h1{
     letter-spacing: 20px; 
 }
 
+*{ 
+    box-sizing:border-box; 
+}
+
 /*menu */ 
 
 .navbar {
     display: flex; 
     justify-content: center; 
     align-content: center; 
-  overflow: hidden;
-  background-color: #333;
+    overflow: hidden;
+    background-color: #333;
+    align-self: center;
+    height: 70px; 
 }
 
 .navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
+    display: flex; 
+    justify-content: center; 
+    align-content: center;
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    width: 120px;
 }
 
 .dropdown {
+    display: flex; 
     float:left;  
     overflow: hidden;
+    width:120 px;
 }
 
 .dropdown .dropbtn {
@@ -44,14 +56,15 @@ h1{
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
-
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 150px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+      margin-top: 70px; 
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 50px;
+        max-width: 120px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
 }
 
 .dropdown-content a {
