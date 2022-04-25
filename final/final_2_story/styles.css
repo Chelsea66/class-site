@@ -1,0 +1,219 @@
+
+*{ 
+    box-sizing:border-box; 
+}
+body{
+    
+    overflow: hidden;
+}
+.container{
+    display: flex; 
+    background-color: red; 
+    flex-direction: row;
+     width:100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.forest{ 
+    position: relative; 
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+    align-content:center;
+    flex-wrap:wrap; 
+    overflow: hidden;
+    width:100vw;
+    height: 100vh;
+    background: url(forest.png); 
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+} 
+
+.deer{
+    position: absolute;
+    background:url(deer.png);
+    width:22%;
+    height:22%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    top:50%;
+    right:75%;
+}
+.frame{
+    position: absolute;
+    background:url(frame.png);
+    width:30%;
+    height:45%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    top:65%;
+    right:75%;
+}
+
+
+
+.moon{
+    position: absolute;
+    background:url(moon.png);
+    width:50%;
+    height:50%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    top:20%;
+    right:50%;
+    
+    
+}
+
+.moon:hover{
+    animation: swing 4s ease infinite;
+}
+
+@keyframes swing {
+    0% { transform:  rotate(0deg); }
+    20% { transform: rotate(-20deg); }
+    70% { transform:  rotate(20deg); }
+    100% { transform:  rotate(0deg); }
+}
+
+.carnevale_di_venezia_girl{
+    position: absolute;
+    background:url(sunflower_girl.png);
+    width:20%;
+    height:50%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    top:35%;
+    right:38%;
+}
+
+.carnevale_di_venezia_girl:hover{
+    animation: grow 4s infinite;
+}
+
+@keyframes grow {
+  0% {background: url(sunflower_girl.png);background-size: contain; background-position: center;}
+  50% {background: url(dancing_girl.png);background-size: contain; background-position: center;}
+  100% { background:url(mask.png);background-size: contain; background-position: center;}
+}
+.bubble{
+    position: absolute;
+    background:url(bubble.png);
+    width:10%;
+    height:10%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    top:70%;
+    right: 5%;  
+}
+
+
+.lake{
+    position: absolute;
+    background:url(lake.png);
+    width:20%;
+    height:10%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    top:80%;
+    right: 0%;  
+}
+.witch{
+    position: absolute;
+    background:url(witch.png);
+    width:30%;
+    height:40%;
+    background-position: right;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    top:35%;
+    right:0;
+}
+/*pop up story*/
+
+
+.button {
+  position: absolute;
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  top:90%;
+  right: 45.6%  
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+/*music*/
+.music{
+    margin-left: 10%;
+    padding: 20px; 
+}
+
+
+/* Phone*/ 
+
+@media screen and (max-width:820px){
+
+    
+}

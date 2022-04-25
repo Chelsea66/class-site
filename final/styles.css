@@ -2,7 +2,9 @@
 *{ 
     box-sizing:border-box; 
 }
-
+body{
+    overflow: hidden;
+}
 .container{
     background-color: red; 
     display: flex; 
@@ -12,13 +14,14 @@
 }
 
 .leftbox{
-    background-color: antiquewhite;
+    background-color: #3aa1aa;
     display: flex;
     flex-direction: row;
     justify-content:center; 
     align-items: center; 
     width: 20vw;
     height:100vh;
+    z-index: 0;
 }
 .fork{
     background: url(fork.png);
@@ -28,9 +31,17 @@
     background-position: center;
     background-repeat: no-repeat; 
     background-size:contain;
+    transform-origin: bottom left;
+    animation: move 5s infinite; 
+    z-index: 3; 
+}
+@keyframes move {
+  0% { transform: translate(0) rotate(0deg);}
+  50% { transform: translate(300px, -100px) rotate(60deg);}
+  100% { transform: translate(0) rotate(0deg); }
 }
 .middlebox{
-    background-color:beige;
+    background-color:darkcyan;
     flex-direction: row;
     justify-content:center; 
     align-items: center; 
@@ -77,8 +88,10 @@
     background-repeat: no-repeat; 
     background-size: contain; 
     top:65%;
-    right:33.33%;
-    /*z-index: -1;*/  
+    right:33.33%; 
+}
+.link_2{
+    display: none; 
 }
 
 .sticker{ 
@@ -94,14 +107,6 @@
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
-.sticker:hover{
-    animation: shake 5s infinite;
-}
-
-@keyframes shake {
-  from {transform: rotate(-20deg);}
-  to {transform: rotate(30deg);}
-}
 
 /*sticker*/
 /*position: absolute*/
@@ -115,7 +120,14 @@
     background-size: contain; 
     top:40%;
     right:35%;
+    z-index: 2; 
+    
 }
+.sticker_1:hover{
+    animation: shake 0.5s infinite;
+}
+
+
 .sticker_2{
     position: absolute;
     background:url(away.png);
@@ -125,8 +137,14 @@
     background-repeat: no-repeat; 
     background-size: contain; 
     top:30%;
-    right:10%;
+    right:20%;
+     transform: rotate(30deg);
+    z-index: 2; 
 }
+.sticker_2:hover{
+    animation: shake 0.5s infinite;
+}
+
 .sticker_3{
     position: absolute;
     background:url(besttrip.png);
@@ -136,8 +154,12 @@
     background-repeat: no-repeat; 
     background-size: contain; 
     top:28%;
-    right:60%;
-    transform: rotate(30deg);
+    right:50%;
+    transform: rotate(-20deg);
+    z-index: 2; 
+}
+.sticker_3:hover{
+    animation: shake 0.5s infinite;
 }
 .sticker_4{
     position: absolute;
@@ -147,8 +169,12 @@
     background-position: center;
     background-repeat: no-repeat; 
     background-size: contain; 
-    top:70%;
+    top:63%;
     right:40%;
+    z-index: 2; 
+}
+.sticker_4:hover{
+    animation: shake 0.5s infinite;
 }
 .sticker_5{ 
     position: absolute; 
@@ -158,8 +184,12 @@
     background-position: center;
     background-repeat: no-repeat; 
     background-size: contain; 
-    top:70%;
-    right:15%;
+    top:62%;
+    right:18%;
+    z-index: 2; 
+}
+.sticker_5:hover{
+    animation: shake 0.5s infinite;
 }
 .sticker_6{
     position: absolute; 
@@ -170,20 +200,13 @@
     background-repeat: no-repeat; 
     background-size: contain; 
     top:45%;
-    right:5%;
+    right:10%;
+    z-index: 2; 
+}
+.sticker_6:hover{
+    animation: shake 0.5s infinite;
 }
 
-.sticker_6{
-    position: absolute; 
-    background:url(roadtrip.png);
-    width:33.33%;;
-    height: 33.33%;;
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: contain;
-    top:45%;
-    right:5%;
-}
 .sticker_7{
     position: absolute;
     background:url(herewego.png);
@@ -193,8 +216,12 @@
     background-repeat: no-repeat; 
     background-size: contain; 
     top:55%;
-    right:60%;
+    right:55%;
     transform: rotate(-20deg);
+    z-index: 2; 
+}
+.sticker_7:hover{
+    animation: shake 0.5s infinite;
 }
 .sticker_8{
     position: absolute;
@@ -204,19 +231,38 @@
     background-position: center;
     background-repeat: no-repeat; 
     background-size: contain; 
-    top:80%;
-    right:50%;
-    transform: rotate(30deg);
+    top:77%;
+    right:45%;
+    transform: rotate(25deg);
+    z-index: 2; 
+}
+.sticker_8:hover{
+    animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 /*right*/ 
 
 .rightbox{
-    background-color: antiquewhite; 
+    background-color: #3aa1aa; 
     display: flex; 
     justify-content: center;
     align-items: center; 
     width: 20vw;
     height:100vh;
+    z-index: 0;
 }
 
 .knife{
@@ -227,6 +273,75 @@
     background-position: center;
     background-repeat: no-repeat; 
     background-size:contain;
+    transform-origin: bottom right;
+    animation: move2 5s infinite; 
+    z-index: 3; 
 }
 
+@keyframes move2 {
+  0% { transform: translate(0px, 0px) rotate(0deg);}
+  50% { transform: translate(-300px, -100px) rotate(-60deg);}
+  100% { transform: translate(0px, 0px) rotate(0deg); } 
+}
 
+/* Phone*/ 
+
+@media screen and (max-width:820px){
+    body{
+    overflow: hidden;
+    }
+    .middlebox{
+        display: flex;
+        width: 100%; 
+        justify-content: center; 
+        justify-items: center;
+        align-content: center; 
+        align-items: center; 
+    }
+    .sticker{
+        display: none;
+        width: 100%; 
+        justify-content: center; 
+        align-items: center; 
+        justify-items: center; 
+    }
+    .leftbox{
+        display: none;
+    }
+    .link{
+        display: none; 
+    }
+    .link_2{
+        display: flex; 
+        margin-top: 20%; 
+    }
+    
+    .rightbox{
+        display: none; 
+    }
+    .sticker_1{
+        display: none; 
+    }
+    .sticker_2{
+        display: none; 
+    }
+    .sticker_3{
+        display: none; 
+    }
+    .sticker_4{
+        display: none; 
+    }
+    .sticker_5{
+        display: none; 
+    }
+    .sticker_6{
+        display: none; 
+    }
+    .sticker_7{
+        display: none; 
+    }
+    .sticker_8{
+        display: none;
+    }
+    
+}

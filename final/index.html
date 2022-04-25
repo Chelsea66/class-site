@@ -14,17 +14,20 @@
             <div class="middlebox">
                 <div class="plate">
                     <div class="sticker"> 
-                        <div class="sticker_1"></div>
-                        <div class="sticker_2"></div>
-                        <div class="sticker_3"></div>
-                        <div class="sticker_4"></div>
-                        <div class="sticker_5"></div>
-                        <div class="sticker_6"></div>
-                        <div class="sticker_7"></div>
-                        <div class="sticker_8"></div>
+                        <div class="sticker_1 draggable"></div>
+                        <div class="sticker_2 draggable"></div>
+                        <div class="sticker_3 draggable"></div>
+                        <div class="sticker_4 draggable"></div>
+                        <div class="sticker_5 draggable"></div>
+                        <div class="sticker_6 draggable"></div>
+                        <div class="sticker_7 draggable"></div>
+                        <div class="sticker_8 draggable"></div>
                         <div class="link">
-                        <a href ="#"> ENTER </a>
+                        <a href ="final_2_story/index.html"> ENTER </a>
                         </div>
+                    </div>
+                    <div class="link_2">
+                        <a href ="#"> ENTER </a>
                     </div>
                 </div>
             </div>
@@ -32,5 +35,23 @@
                 <div class="knife"></div>
             </div>
         </div>
+        
+        
+        <!-- jQuery--> 
+        <!-- order is important, think the relationship between them.--> 
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="jquery.marquee.min.js"></script>
+       <!--  copy the script line from https://releases.jquery.com/ui/, and put it before the functions.js--> 
+        <script
+            src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+            integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY="
+            crossorigin="anonymous">
+        </script>
+        <script src="functions.js"></script>
+        <!--the browser read the function from top to bottom
+        Script : 
+        1. search ID box in html. 
+        2. https://developer.mozilla.org/en-US/docs/Web/API/Element/classList 
+        classlist = a javascript function. 
     </body>
 </html> 
