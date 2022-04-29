@@ -4,9 +4,10 @@
 }
 body{
     overflow: hidden;
+    margin: 0;
 }
 .container{
-    background-color: red; 
+    background-color: transparent; 
     display: flex; 
     flex-direction: row;
     width: 100vw;  

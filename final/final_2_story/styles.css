@@ -8,7 +8,7 @@ body{
 }
 .container{
     display: flex; 
-    background-color: red; 
+    background-color: transparent; 
     flex-direction: row;
      width:100vw;
     height: 100vh;
