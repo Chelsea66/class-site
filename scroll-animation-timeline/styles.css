@@ -7,9 +7,10 @@
 }
 
 body {
+    font-family:sans-serif; 
   font: normal 16px/1.5 "Helvetica Neue", sans-serif;
   background: #456990;
-  color: #fff;
+  color: black;
   overflow-x: hidden;
   padding-bottom: 50px;
 }
@@ -19,7 +20,7 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .intro {
-  background: #f45b69;
+  background:#F2E4D2 /*#FFBA00*/;
   padding: 100px 0;
 }
 
@@ -39,7 +40,7 @@ h1 {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline ul {
-  background: #456990;
+  background: #513A50;
   padding: 50px 0;
 }
 
