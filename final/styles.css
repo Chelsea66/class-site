@@ -15,7 +15,7 @@ body{
 }
 
 .leftbox{
-    background-color: #3aa1aa;
+    background-color: #1F618D;
     display: flex;
     flex-direction: row;
     justify-content:center; 
@@ -42,7 +42,7 @@ body{
   100% { transform: translate(0) rotate(0deg); }
 }
 .middlebox{
-    background-color:darkcyan;
+    background-color:#303960;
     flex-direction: row;
     justify-content:center; 
     align-items: center; 
@@ -257,7 +257,7 @@ body{
 /*right*/ 
 
 .rightbox{
-    background-color: #3aa1aa; 
+    background-color: #1F618D; 
     display: flex; 
     justify-content: center;
     align-items: center; 
