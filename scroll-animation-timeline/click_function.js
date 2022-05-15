@@ -344,7 +344,7 @@ Particle.prototype = (function(o) {
     // Event Listeners
 
     function resize(e) {
-        screenWidth  = canvas.width  = window.innerWidth;
+        screenWidth = canvas.width = window.innerWidth;
         screenHeight = canvas.height = window.innerHeight;
         bufferCvs.width  = screenWidth;
         bufferCvs.height = screenHeight;
